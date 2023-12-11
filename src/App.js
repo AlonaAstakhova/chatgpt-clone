@@ -83,7 +83,7 @@ function App() {
       </section>
       <section className="main">
         {!currentTitle && <h1>GhatGPT clone</h1>}
-        <ul clasname="feed">
+        <ul className="feed">
           {currentChat?.map((chatMessage, index) => (
             <li key={index}>
               <p className="role">{chatMessage.role}</p>
